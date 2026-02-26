@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 lastDigit = number % 10
-result = f"Last digit of {number} is {lastDigit} and is "
+result = "Last digit of {number} is {lastDigit} and is ".format(number=number,lastDigit=lastDigit)
 if lastDigit > 5:
     result += "greater than 5"
 elif lastDigit < 6 and lastDigit !=0 :
