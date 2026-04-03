@@ -3,8 +3,9 @@
 
 
 class Square:
-    """Class has a private attribute: size that has a getter and a setter with its validations,
-     has a method for calculating the area and another one for stdout prints"""
+    """Class has a private attribute: size that has a getter
+      and a setter with its validations,has a method for 
+      calculating the area and another one for stdout prints"""
 
     def __init__(self, size=0):
         self.__size = size
@@ -24,8 +25,9 @@ class Square:
 
     def area(self):
         return self.__size ** 2
+    
     def my_print(self):
-        if self.__size==0:
+        if self.__size == 0:
             print()
         else:
             for i in range(self.__size):
