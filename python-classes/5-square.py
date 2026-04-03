@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """class that defines a square"""
 
+
 class Square:
     """Class has a private attribute: size that has a getter and a setter with its validations,
      has a method for calculating the area and another one for stdout prints"""
