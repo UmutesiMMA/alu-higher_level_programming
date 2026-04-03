@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+"""class that defines a square"""
+
 class Square:
+    """has a private attribute: size that has a getter and a setter with its validations
+     and has a method for calculating the area """
+
     def __init__(self, size=0):
         self.size = size
 
