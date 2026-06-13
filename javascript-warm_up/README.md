@@ -1,0 +1,1 @@
+This folder has answers for the exercises about js warm up
