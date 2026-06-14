@@ -5,5 +5,6 @@ if (argv[2] !== undefined) {
   arguments.forEach((element) => {
     console.log(element);
   });
+} else {
+  console.log("No argument");
 }
-console.log("No argument");
