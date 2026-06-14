@@ -6,7 +6,7 @@ if (isNaN(arg)) {
   console.log(factorial(arg));
 }
 
-function factorial(num) {
+function factorial (num) {
   if (num === 0) {
     return 1;
   }

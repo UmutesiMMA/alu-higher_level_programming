@@ -1,11 +1,11 @@
 #!/usr/bin/node
-let argv = process.argv;
-let firstArg = argv[2];
-let intArg = parseInt(argv[2], 10);
+const argv = process.argv;
+const firstArg = argv[2];
+const intArg = parseInt(argv[2], 10);
 if (isNaN(intArg)) {
-  console.log("Missing number of occurrences");
+  console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < intArg; i++) {
-    console.log("C is fun");
+    console.log('C is fun');
   }
 }
