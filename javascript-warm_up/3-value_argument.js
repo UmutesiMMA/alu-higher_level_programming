@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+argv = process.argv;
 if (argv[2] != undefined) {
   console.log(argv[2]);
 }

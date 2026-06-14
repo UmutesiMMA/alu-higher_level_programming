@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+argv = process.argv;
 if (argv.length == 0) {
   console.log('No argument');
 } else if (argv.length == 1) {

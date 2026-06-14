@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
+argv = process.argv;
 let firstArg = argv[2];
 let intArg = parseInt(argv[2], 10);
 if (isNaN(intArg)) {
