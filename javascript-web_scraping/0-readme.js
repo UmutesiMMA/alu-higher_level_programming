@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const { error } = require("console");
 const fs = require("fs");
 console.log(process.argv);
 const filePath = process.argv[2];
