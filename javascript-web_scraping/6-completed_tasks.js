@@ -3,7 +3,7 @@ const request = require('request');
 
 request.get(process.argv[2], (error, response, body) => {
   if (error) console.log(error);
-  const resulr = {};
+  const result = {};
   JSON.parse(body)
     .filter((el) => el.completed)
     .forEach((el) => {
